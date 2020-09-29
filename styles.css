@@ -23,13 +23,9 @@ body{
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
-#my-links {
+/* #my-links {
     display: none;
-  }
-
-#display-my-links {
-    display: visible;
-}
+  } */
   
   
   /* Style the hamburger menu */
@@ -64,7 +60,7 @@ body{
 
 /* About Arwin image styling */
 #photo-of-me {
-    float: left;
+    
     margin: auto;
     margin-right: 20rem;
     margin-bottom: 1rem;
