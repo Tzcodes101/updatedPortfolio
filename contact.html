@@ -17,16 +17,9 @@
     <!--Link to my stylesheet-->
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <!--link to font awesome-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <!--link to jquery-->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
 </head>
 
 <body>
-
     <!--NavBar with collapsable menu-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
@@ -34,24 +27,17 @@
         <h1 class="navbar-brand">Talia Zisman</h1>
 
         <!--Hamburger menu on xs screen-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
             <!--border around hamburger menu-->
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <!--Collapsable nav links-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <!--Coloration for nav link text-->
-            <div class="navbar-nav">
-
-                <!--Link to index.html-->
-                <a class="nav-item nav-link active" href="index.html">About Me</a>
-                <!--Link to portfolio.html-->
-                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
-
-            </div>
+        <div class="collapse navbar-collapse" id="my-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">My Portfolio</a></li>
+            </ul>
         </div>
+
     </nav>
 
     <!--Activate grid system-->
@@ -111,6 +97,17 @@
     <footer>
         &#169; Copyright
     </footer>
+
+    <!--scripts for bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </body>
 

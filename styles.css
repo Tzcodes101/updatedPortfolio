@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(to bottom, #7927b2, #fb3182);
 }
 
@@ -13,27 +13,6 @@ body{
     font-weight: 600;
 }
   
-  /* Style the hamburger menu */
-  .icon {
-    background: lightgrey;
-    color: rgb(94, 91, 91);
-    display: block;
-    border: 1px solid grey;
-    padding: 10px;
-    margin-top: 7px;
-    border-radius: 4px;
-    float: right;
-    position: absolute;
-    right: 1.5rem;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .icon:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
 
 /* card styling */
 .card {
@@ -45,9 +24,15 @@ body{
     background: linear-gradient(to bottom, #9533db, #e46497);
 }
 
+/*anchor tag styling*/
 a {
   color: black;
   font-weight: bold;
+}
+
+h4#port-title {
+  position: relative;
+  right: 1.2rem;
 }
 
 /* image of me styling */
