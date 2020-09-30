@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talia Zisman</title>
+    <title>About Arwin</title>
 
     <!--Link to reset CSS-->
     <link rel="stylesheet" type="text/css" href="reset.css">
@@ -22,33 +22,119 @@
     <!--link to jquery-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-    <!--ajax links-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
 </head>
 
-
 <body>
-<!--navbar-->
-    <!--links to about me, contact, porfolio, and resume-->
+    <!--NavBar edited from bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-<!--activate grid system-->
-<!--1 row with two columns-->
-    <!--first column has four rows, each with 1 colmumn-->
-        <!--my name is-->
-        <!--actual name-->
-        <!--I am a web developer-->
-        <!--Hire me button-->
+        <!--Heading-->
+        <h1 class="navbar-brand">Talia Zisman</h1>
+
+        <!--Hamburger menu on xs screen-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <!--border around hamburger menu-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Collapsable nav links-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!--Coloration for nav link text-->
+            <div class="navbar-nav">
+
+                <!--Link to portfolio.html-->
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                <!--Link to contact.html-->
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Activate grid system-->
+    <div class="container">
+        <div class="row justify-content-md-center">
+
+            <!--Set responsive layout-->
+            <div class="col-lg-10 col-md-10 col-xs-12">
+
+                <div class="row">
+                    
+
+                    <div class="col">
+                        <!--Card edited from bootstrap-->
+                        <div class="card">
+                            <section class="card-body">
+
+                                <div class="row justify-content-md-center">
+                                    <div class="col">
+                                        <!-- Image of Me -->
+                                        <img id="photo-of-me" src="Screenshots/photoOfMe.jpg" alt="photo of me smiling">
+                                    </div>
+                                </div>
+                                
+
+                                <div class="row">
+                                    <div class="col">
+                                        <!--Heading-->
+                                        <h4 class="card-title">
+                                            About Me
+                                        </h4>
+
+                                        <!--Card paragraphs-->
+                                        <div class="card-text">
+                                            <p>
+                                                My name is Talia Zisman, and I currently enrolled in Columbia
+                                                Univerity's
+                                                Coding
+                                                Bootcamp. I am skilled in HTML, CSS, JavaScript and am currently
+                                                learning
+                                                backend languages. Through group-work, I have learned git workflow and
+                                                team
+                                                collaboration. Screenshots of my homework assignments and projects can
+                                                be
+                                                found
+                                                on my porfolio page as well as on my GitHub page as pinned repositories.
+                                                In
+                                                my
+                                                work, I strive to be concise and clean for a beautiful user interface
+                                                and
+                                                effective application.
+                                            </p>
+
+                                            <p>
+                                                View my resume here: <a
+                                                    href="https://docs.google.com/document/d/1qqfdbB4vqiS8ecsN4qLuyzNCg-vhztmQoa52bZAIOag/edit?usp=sharing"
+                                                    target="_blank">Resume</a>.
+                                                <br>
+                                                View my GitHub profile here: <a href="https://github.com/Tzcodes101"
+                                                    target="_blank">My
+                                                    GitHub Profile</a>.<br>
+                                                View my LinkedIn profile here: <a
+                                                    href="https://www.linkedin.com/in/talia-zisman-4b758a140/"
+                                                    target="_blank">My
+                                                    LinkedIn Profile</a>.
 
 
-<!--second column has image-->
+                                            </p>
+                                        </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    </div>
+    </div>
 
+    <!--Footer with copyright symbol-->
 
-
-
+    <footer>
+        &#169; Copyright
+    </footer>
 </body>
+
+</html>

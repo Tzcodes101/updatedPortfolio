@@ -1,9 +1,7 @@
 body{
-    background-color: black;
-    /* background-image: url(imgs/background2.jpg);
-    background-size: cover; */
-
+    background: linear-gradient(to bottom, #7927b2, #fb3182);
 }
+
 
 /* navbar styling*/
 .navbar {
@@ -14,19 +12,6 @@ body{
 .navbar-brand {
     font-weight: 600;
 }
-
-/* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: grey;
-    position: relative;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-/* #my-links {
-    display: none;
-  } */
-  
   
   /* Style the hamburger menu */
   .icon {
@@ -56,11 +41,17 @@ body{
     margin-bottom: 3rem;
     border: none;
     padding: 20px;
+    color: white;
+    background: linear-gradient(to bottom, #9533db, #e46497);
 }
 
-/* About Arwin image styling */
+a {
+  color: black;
+  font-weight: bold;
+}
+
+/* image of me styling */
 #photo-of-me {
-    
     margin: auto;
     margin-right: 20rem;
     margin-bottom: 1rem;
@@ -80,7 +71,7 @@ footer {
         border-top: 2px solid black;
         padding: 2rem;
         text-align: center;
-        opacity: 75%;
+        opacity: 95%;
         background-color: grey;
 }
 
