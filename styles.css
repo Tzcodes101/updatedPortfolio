@@ -17,11 +17,15 @@ body {
 /* card styling */
 .card {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
     border: none;
     padding: 20px;
     color: white;
     background: linear-gradient(to bottom, #9533db, #e46497);
+}
+
+.card-contact {
+    margin-top: 5.5rem;
 }
 
 /*anchor tag styling*/
@@ -31,8 +35,10 @@ a {
 }
 
 h4#port-title {
-  position: relative;
-  right: 1.2rem;
+    padding-top: 3rem;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 /* image of me styling */
