@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!--Link to reset CSS-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+
+    <!--Link to Bootsrap CSS stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Link to my stylesheet-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!--NavBar with collapsable menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <!--Heading-->
+        <h1 class="navbar-brand">Talia Zisman</h1>
+
+        <!--Hamburger menu on xs screen-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav">
+            <!--border around hamburger menu-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--nav links-->
+        <div class="collapse navbar-collapse" id="my-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!--Activate grid system-->
+    <div class="container">
+        <div class="row">
+            <!--Set responsive layout-->
+            <div class="col-lg-12 col-md-12 col-xs-12">
+
+                <!--Card edited from bootstrap-->
+                <div class="card">
+
+                    <!--Heading-->
+                    <section class="card-body">
+                        <h4 class="card-title" id="port-title">My Portfolio</h4>
+                    </section>
+
+                    <!--Images, responsive to web browser via bootsrap classes-->
+                    <div class="row">
+                        <!-- <div class="card-columns images"> -->
+                        <div class="col">
+                            <h6>Safe-Space</h6>
+                            <img class="img-fluid" src="Screenshots/a_welcome.png" alt="screenshot of welcome page">
+                            <br>
+                            <img class="img-fluid" src="Screenshots/b_top.png" alt="screenshot of top of web-page">
+                            <br>
+                            <img class="img-fluid" src="Screenshots/bottom.png" alt="screenshot of bottom of web-page">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Weather Application</h6>
+                            <img class="img-fluid" src="Screenshots/weatherApp.png"
+                                alt="screenshot of weather application">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h6>Calendar Application</h6>
+                            <img class="img-fluid" src="Screenshots/calendar1.png" alt="top of calendar application">
+                            <img class="img-fluid" src="Screenshots/calendar2nd.png"
+                                alt="bottom of calendar application">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!--Footer with copyright symbol-->
+    <footer>
+        &#169; Copyright
+    </footer>
+
+    <!--scripts for bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html> 
