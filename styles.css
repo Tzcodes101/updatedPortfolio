@@ -59,6 +59,12 @@ h4#port-title {
     width: auto;
 }
 
+.port-card {
+    margin: 1rem;
+    margin-bottom: 7rem;
+    justify-content: center;
+}
+
 /* Footer styling */
 footer {
         border-top: 2px solid black;
